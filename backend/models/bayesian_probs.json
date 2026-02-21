@@ -1,0 +1,397 @@
+{
+  "metadata": {
+    "generated_at": "2026-02-21T03:17:07.966639",
+    "total_samples": 322481,
+    "high_risk_count": 193228,
+    "safe_count": 129253,
+    "p_high_risk": 0.5991918903749368,
+    "p_safe": 0.4008081096250632,
+    "high_risk_diseases": [
+      "Cholera",
+      "Typhoid",
+      "Dysentery",
+      "Hepatitis_A",
+      "Hepatitis_E",
+      "Leptospirosis",
+      "Giardiasis"
+    ]
+  },
+  "thresholds": {
+    "fecal_coliform_per_100ml": {
+      "safe": 0,
+      "elevated": 10,
+      "high_risk": 100
+    },
+    "total_coliform_per_100ml": {
+      "safe": 0,
+      "elevated": 10,
+      "high_risk": 500
+    },
+    "ph": {
+      "safe_min": 6.5,
+      "safe_max": 8.5,
+      "elevated_min": 6.0,
+      "elevated_max": 9.0
+    },
+    "turbidity_ntu": {
+      "safe": 1,
+      "elevated": 5,
+      "high_risk": 10
+    },
+    "dissolved_oxygen_mg_l": {
+      "safe_min": 6.0,
+      "elevated_min": 4.0,
+      "high_risk_max": 4.0
+    },
+    "bod_mg_l": {
+      "safe": 2,
+      "elevated": 5,
+      "high_risk": 10
+    },
+    "tds_mg_l": {
+      "safe": 300,
+      "elevated": 500,
+      "high_risk": 1000
+    },
+    "nitrate_mg_l": {
+      "safe": 10,
+      "elevated": 45,
+      "high_risk": 50
+    },
+    "fluoride_mg_l": {
+      "safe": 1.0,
+      "elevated": 1.5,
+      "high_risk": 2.0
+    },
+    "arsenic_ug_l": {
+      "safe": 10,
+      "elevated": 50,
+      "high_risk": 100
+    },
+    "avg_rainfall_mm": {
+      "safe": 50,
+      "elevated": 150,
+      "high_risk": 300
+    },
+    "avg_temperature_c": {
+      "safe_min": 20,
+      "safe_max": 30,
+      "elevated_min": 15,
+      "elevated_max": 35
+    },
+    "avg_humidity_pct": {
+      "safe_min": 40,
+      "safe_max": 70,
+      "elevated_min": 30,
+      "elevated_max": 85
+    },
+    "open_defecation_rate": {
+      "safe": 0.1,
+      "elevated": 0.3,
+      "high_risk": 0.5
+    },
+    "sewage_treatment_pct": {
+      "safe": 0.8,
+      "elevated": 0.5,
+      "high_risk": 0.3
+    },
+    "population_density": {
+      "safe": 1000,
+      "elevated": 5000,
+      "high_risk": 10000
+    }
+  },
+  "conditional_probabilities": {
+    "fecal_coliform_per_100ml": {
+      "elevated": {
+        "n_samples": 12811,
+        "p_feature": 0.039726371476148985,
+        "p_feature_given_high_risk": 0.0,
+        "p_feature_given_safe": 0.0991156878370328,
+        "p_high_risk_given_feature": 0.0,
+        "relative_risk": 0.0,
+        "risk_increase_pct": -100.0
+      },
+      "high_risk": {
+        "n_samples": 308358,
+        "p_feature": 0.956205171777562,
+        "p_feature_given_high_risk": 0.9999585981327758,
+        "p_feature_given_safe": 0.8907955714760972,
+        "p_high_risk_given_feature": 0.6266093307130025,
+        "relative_risk": 1.0457573621714231,
+        "risk_increase_pct": 4.575736217142312
+      }
+    },
+    "total_coliform_per_100ml": {
+      "elevated": {
+        "n_samples": 4280,
+        "p_feature": 0.013272099751613274,
+        "p_feature_given_high_risk": 0.0,
+        "p_feature_given_safe": 0.03311335133420501,
+        "p_high_risk_given_feature": 0.0,
+        "relative_risk": 0.0,
+        "risk_increase_pct": -100.0
+      },
+      "high_risk": {
+        "n_samples": 317759,
+        "p_feature": 0.9853572768628229,
+        "p_feature_given_high_risk": 0.9999068457987456,
+        "p_feature_given_safe": 0.9636062605896962,
+        "p_high_risk_given_feature": 0.6080394261059482,
+        "relative_risk": 1.0147657801668095,
+        "risk_increase_pct": 1.4765780166809517
+      }
+    },
+    "ph": {
+      "elevated": {
+        "n_samples": 17367,
+        "p_feature": 0.05385433560426816,
+        "p_feature_given_high_risk": 0.08987827851036082,
+        "p_feature_given_safe": 0.0,
+        "p_high_risk_given_feature": 1.0,
+        "relative_risk": 1.6689144430413811,
+        "risk_increase_pct": 66.89144430413812
+      }
+    },
+    "turbidity_ntu": {
+      "elevated": {
+        "n_samples": 64528,
+        "p_feature": 0.20009861046077132,
+        "p_feature_given_high_risk": 4.1401867224211814e-05,
+        "p_feature_given_safe": 0.4991760345988101,
+        "p_high_risk_given_feature": 0.0001239771881973717,
+        "relative_risk": 0.00020690731999025306,
+        "risk_increase_pct": -99.97930926800097
+      },
+      "high_risk": {
+        "n_samples": 241025,
+        "p_feature": 0.7474083744468666,
+        "p_feature_given_high_risk": 0.9999585981327758,
+        "p_feature_given_safe": 0.36985601881581087,
+        "p_high_risk_given_feature": 0.8016595788818588,
+        "relative_risk": 1.3379012495984055,
+        "risk_increase_pct": 33.790124959840554
+      }
+    },
+    "dissolved_oxygen_mg_l": {
+      "elevated": {
+        "n_samples": 90647,
+        "p_feature": 0.2810925294823571,
+        "p_feature_given_high_risk": 0.469119382284141,
+        "p_feature_given_safe": 0.0,
+        "p_high_risk_given_feature": 1.0,
+        "relative_risk": 1.6689144430413811,
+        "risk_increase_pct": 66.89144430413812
+      },
+      "high_risk": {
+        "n_samples": 57397,
+        "p_feature": 0.17798567977648297,
+        "p_feature_given_high_risk": 0.2970428716335107,
+        "p_feature_given_safe": 0.0,
+        "p_high_risk_given_feature": 0.9999999999999999,
+        "relative_risk": 1.668914443041381,
+        "risk_increase_pct": 66.89144430413809
+      }
+    },
+    "bod_mg_l": {
+      "elevated": {
+        "n_samples": 76501,
+        "p_feature": 0.2372263792285437,
+        "p_feature_given_high_risk": 0.0007555840768418656,
+        "p_feature_given_safe": 0.5907406404493513,
+        "p_high_risk_given_feature": 0.0019084717846825532,
+        "relative_risk": 0.003185076125593674,
+        "risk_increase_pct": -99.68149238744063
+      },
+      "high_risk": {
+        "n_samples": 193082,
+        "p_feature": 0.5987391505235967,
+        "p_feature_given_high_risk": 0.9992444159231582,
+        "p_feature_given_safe": 0.0,
+        "p_high_risk_given_feature": 1.0,
+        "relative_risk": 1.6689144430413811,
+        "risk_increase_pct": 66.89144430413812
+      }
+    },
+    "tds_mg_l": {
+      "elevated": {
+        "n_samples": 82228,
+        "p_feature": 0.2549855650410412,
+        "p_feature_given_high_risk": 0.128620075765417,
+        "p_feature_given_safe": 0.4438968534579468,
+        "p_high_risk_given_feature": 0.3022449773799678,
+        "relative_risk": 0.5044210080861439,
+        "risk_increase_pct": -49.557899191385616
+      },
+      "high_risk": {
+        "n_samples": 166527,
+        "p_feature": 0.5163932138637625,
+        "p_feature_given_high_risk": 0.8618160929057901,
+        "p_feature_given_safe": 0.0,
+        "p_high_risk_given_feature": 1.0000000000000002,
+        "relative_risk": 1.6689144430413816,
+        "risk_increase_pct": 66.89144430413816
+      }
+    },
+    "nitrate_mg_l": {
+      "elevated": {
+        "n_samples": 179334,
+        "p_feature": 0.5561071815083679,
+        "p_feature_given_high_risk": 0.5956693646883474,
+        "p_feature_given_safe": 0.49696332000030946,
+        "p_high_risk_given_feature": 0.6418191753934,
+        "relative_risk": 1.0711412916349548,
+        "risk_increase_pct": 7.114129163495475
+      },
+      "high_risk": {
+        "n_samples": 76664,
+        "p_feature": 0.23773183536394393,
+        "p_feature_given_high_risk": 0.39675409360962177,
+        "p_feature_given_safe": 0.0,
+        "p_high_risk_given_feature": 0.9999999999999999,
+        "relative_risk": 1.668914443041381,
+        "risk_increase_pct": 66.89144430413809
+      }
+    },
+    "fluoride_mg_l": {
+      "elevated": {
+        "n_samples": 49050,
+        "p_feature": 0.1521019843029512,
+        "p_feature_given_high_risk": 0.25384519841844866,
+        "p_feature_given_safe": 0.0,
+        "p_high_risk_given_feature": 0.9999999999999998,
+        "relative_risk": 1.668914443041381,
+        "risk_increase_pct": 66.89144430413809
+      },
+      "high_risk": {
+        "n_samples": 73481,
+        "p_feature": 0.227861486413153,
+        "p_feature_given_high_risk": 0.3802813256877885,
+        "p_feature_given_safe": 0.0,
+        "p_high_risk_given_feature": 1.0,
+        "relative_risk": 1.6689144430413811,
+        "risk_increase_pct": 66.89144430413812
+      }
+    },
+    "arsenic_ug_l": {
+      "elevated": {
+        "n_samples": 144823,
+        "p_feature": 0.4490900239083853,
+        "p_feature_given_high_risk": 0.7494928271265034,
+        "p_feature_given_safe": 0.0,
+        "p_high_risk_given_feature": 1.0,
+        "relative_risk": 1.6689144430413811,
+        "risk_increase_pct": 66.89144430413812
+      },
+      "high_risk": {
+        "n_samples": 28742,
+        "p_feature": 0.08912773155627773,
+        "p_feature_given_high_risk": 0.148746558469787,
+        "p_feature_given_safe": 0.0,
+        "p_high_risk_given_feature": 1.0,
+        "relative_risk": 1.6689144430413811,
+        "risk_increase_pct": 66.89144430413812
+      }
+    },
+    "avg_rainfall_mm": {
+      "elevated": {
+        "n_samples": 65521,
+        "p_feature": 0.20317786164146104,
+        "p_feature_given_high_risk": 0.18894777154449666,
+        "p_feature_given_safe": 0.22445126998986484,
+        "p_high_risk_given_feature": 0.5572259275652082,
+        "relative_risk": 0.9299623985507064,
+        "risk_increase_pct": -7.003760144929361
+      },
+      "high_risk": {
+        "n_samples": 165366,
+        "p_feature": 0.5127930017582432,
+        "p_feature_given_high_risk": 0.5876529281470594,
+        "p_feature_given_safe": 0.400880443780802,
+        "p_high_risk_given_feature": 0.6866647315651342,
+        "relative_risk": 1.1459846880361855,
+        "risk_increase_pct": 14.598468803618548
+      }
+    },
+    "avg_temperature_c": {
+      "elevated": {
+        "n_samples": 113946,
+        "p_feature": 0.35334174726573037,
+        "p_feature_given_high_risk": 0.37195437514231894,
+        "p_feature_given_safe": 0.3255166224381639,
+        "p_high_risk_given_feature": 0.6307549189967178,
+        "relative_risk": 1.0526759943330188,
+        "risk_increase_pct": 5.267599433301884
+      },
+      "high_risk": {
+        "n_samples": 39476,
+        "p_feature": 0.12241341350343121,
+        "p_feature_given_high_risk": 0.10782081271865361,
+        "p_feature_given_safe": 0.14422876064772192,
+        "p_high_risk_given_feature": 0.5277637045293342,
+        "relative_risk": 0.8807924690020298,
+        "risk_increase_pct": -11.920753099797022
+      }
+    },
+    "avg_humidity_pct": {
+      "elevated": {
+        "n_samples": 110834,
+        "p_feature": 0.3436915663248377,
+        "p_feature_given_high_risk": 0.3833709400293953,
+        "p_feature_given_safe": 0.28437250972898115,
+        "p_high_risk_given_feature": 0.6683689120666944,
+        "relative_risk": 1.1154505306279612,
+        "risk_increase_pct": 11.545053062796118
+      },
+      "high_risk": {
+        "n_samples": 54302,
+        "p_feature": 0.16838821511965046,
+        "p_feature_given_high_risk": 0.2037178876767342,
+        "p_feature_given_safe": 0.11557178556783981,
+        "p_high_risk_given_feature": 0.7249088431365326,
+        "relative_risk": 1.2098108381989783,
+        "risk_increase_pct": 20.981083819897826
+      }
+    },
+    "open_defecation_rate": {
+      "elevated": {
+        "n_samples": 1741,
+        "p_feature": 0.005398767679336147,
+        "p_feature_given_high_risk": 0.0,
+        "p_feature_given_safe": 0.013469706699264233,
+        "p_high_risk_given_feature": 0.0,
+        "relative_risk": 0.0,
+        "risk_increase_pct": -100.0
+      },
+      "high_risk": {
+        "n_samples": 319465,
+        "p_feature": 0.9906475110161529,
+        "p_feature_given_high_risk": 0.9999068457987456,
+        "p_feature_given_safe": 0.9768051805373956,
+        "p_high_risk_given_feature": 0.6047923872724712,
+        "relative_risk": 1.0093467501605036,
+        "risk_increase_pct": 0.934675016050357
+      }
+    },
+    "sewage_treatment_pct": {
+      "elevated": {
+        "n_samples": 243,
+        "p_feature": 0.0007535327662715012,
+        "p_feature_given_high_risk": 0.0012575817169354338,
+        "p_feature_given_safe": 0.0,
+        "p_high_risk_given_feature": 1.0,
+        "relative_risk": 1.6689144430413811,
+        "risk_increase_pct": 66.89144430413812
+      },
+      "high_risk": {
+        "n_samples": 379,
+        "p_feature": 0.0011752630387526707,
+        "p_feature_given_high_risk": 0.0019614134597470347,
+        "p_feature_given_safe": 0.0,
+        "p_high_risk_given_feature": 1.0,
+        "relative_risk": 1.6689144430413811,
+        "risk_increase_pct": 66.89144430413812
+      }
+    }
+  }
+}
