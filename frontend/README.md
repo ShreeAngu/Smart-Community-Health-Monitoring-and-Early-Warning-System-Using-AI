@@ -13,7 +13,7 @@ React frontend application built with Vite, TypeScript, and Tailwind CSS for the
 
 ## Tech Stack
 
-- **React 18** with TypeScript
+- **React ** with TypeScript
 - **Vite** for fast development and building
 - **Tailwind CSS** for styling
 - **React Router DOM** for navigation
@@ -24,37 +24,37 @@ React frontend application built with Vite, TypeScript, and Tailwind CSS for the
 
 ## Quick Start
 
-1. **Install Dependencies**:
-   ```bash
-   npm install
-   ```
+. **Install Dependencies**:
+ ```bash
+ npm install
+ ```
 
-2. **Start Development Server**:
-   ```bash
-   npm run dev
-   ```
+. **Start Development Server**:
+ ```bash
+ npm run dev
+ ```
 
-3. **Access Application**:
-   - Frontend: http://localhost:5173
-   - Backend API: http://localhost:8000
+. **Access Application**:
+ - Frontend: http://localhost:
+ - Backend API: http://localhost:000
 
 ## Project Structure
 
 ```
 src/
-├── components/          # Reusable UI components
-│   └── PrivateRoute.tsx # Route protection component
-├── context/            # React Context providers
-│   └── AuthContext.tsx # Authentication state management
-├── pages/              # Page components
-│   ├── Login.tsx       # Login page
-│   ├── CommunityDashboard.tsx  # Community user dashboard
-│   └── AdminDashboard.tsx      # Admin dashboard
-├── services/           # API service layer
-│   └── api.ts          # Axios configuration and API calls
-├── App.tsx             # Main app component with routing
-├── main.tsx            # Application entry point
-└── index.css           # Global styles with Tailwind
+ components/ # Reusable UI components
+ PrivateRoute.tsx # Route protection component
+ context/ # React Context providers
+ AuthContext.tsx # Authentication state management
+ pages/ # Page components
+ Login.tsx # Login page
+ CommunityDashboard.tsx # Community user dashboard
+ AdminDashboard.tsx # Admin dashboard
+ services/ # API service layer
+ api.ts # Axios configuration and API calls
+ App.tsx # Main app component with routing
+ main.tsx # Application entry point
+ index.css # Global styles with Tailwind
 ```
 
 ## Authentication
@@ -77,7 +77,7 @@ The app uses JWT tokens for authentication with two user roles:
 ## Demo Credentials
 
 - **Email**: test@example.com
-- **Password**: testpassword123
+- **Password**: testpassword
 - **Role**: Community (can be changed to admin in backend)
 
 ## API Integration
@@ -104,17 +104,17 @@ The frontend integrates with the FastAPI backend through:
 Create a `.env` file for configuration:
 
 ```env
-VITE_API_BASE_URL=http://localhost:8000
+VITE_API_BASE_URL=http://localhost:000
 ```
 
 ## Deployment
 
-1. **Build the application**:
-   ```bash
-   npm run build
-   ```
+. **Build the application**:
+ ```bash
+ npm run build
+ ```
 
-2. **Deploy the `dist` folder** to your hosting service
+. **Deploy the `dist` folder** to your hosting service
 
 ## Features to Implement
 
@@ -128,9 +128,9 @@ VITE_API_BASE_URL=http://localhost:8000
 
 ## Contributing
 
-1. Follow TypeScript best practices
-2. Use Tailwind CSS for styling
-3. Implement proper error handling
-4. Add loading states for async operations
-5. Ensure responsive design
-6. Write meaningful commit messages
+. Follow TypeScript best practices
+. Use Tailwind CSS for styling
+. Implement proper error handling
+. Add loading states for async operations
+. Ensure responsive design
+. Write meaningful commit messages

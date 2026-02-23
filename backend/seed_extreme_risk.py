@@ -12,9 +12,9 @@ import pandas as pd
 import numpy as np
 
 # Load ML models
-print("=" * 80)
+print("=" * 0)
 print("LOADING ML MODELS...")
-print("=" * 80)
+print("=" * 0)
 
 try:
-    mode
+ mode

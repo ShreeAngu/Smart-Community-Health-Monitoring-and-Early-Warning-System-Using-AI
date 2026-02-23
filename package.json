@@ -1,0 +1,16 @@
+{
+ "name": "water-disease-prediction-system",
+ "version": ".0.0",
+ "description": "Smart Community Health Monitoring and Early Warning System Using AI",
+ "scripts": {
+ "build": "cd frontend && npm install && npm run build",
+ "dev": "cd frontend && npm run dev",
+ "start": "cd backend && python main.py"
+ },
+ "workspaces": [
+ "frontend"
+ ],
+ "engines": {
+ "node": ">=.0.0"
+ }
+}

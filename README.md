@@ -1,15 +1,15 @@
-# 💧 Water-Borne Disease Prediction System
+# Water-Borne Disease Prediction System
 
 An AI-powered health monitoring system for predicting and tracking water-borne diseases using machine learning, Bayesian analysis, and real-time data visualization.
 
-![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)
-![React](https://img.shields.io/badge/React-18.2+-blue.svg)
+![Python](https://img.shields.io/badge/python-.+-blue.svg)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.0+-green.svg)
+![React](https://img.shields.io/badge/React-.+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -25,22 +25,22 @@ An AI-powered health monitoring system for predicting and tracking water-borne d
 
 ---
 
-## 🌟 Overview
+## Overview
 
 This system provides early detection and monitoring of water-borne diseases (Cholera, Typhoid, Hepatitis A, Dysentery) by analyzing water quality parameters, environmental factors, and health symptoms. It combines machine learning predictions with Bayesian probability analysis to provide actionable insights for health authorities and communities.
 
 ### Key Capabilities
 
-- 🤖 **AI-Powered Predictions** - XGBoost model with 95% accuracy
-- 📊 **Real-Time Monitoring** - Live regional risk assessment
-- 🗺️ **Interactive Maps** - Geographic risk visualization
-- 📈 **Trend Analysis** - 7-day rolling window with trend indicators
-- 🚨 **Smart Alerts** - Automated alerts for high-risk regions
-- 📱 **Dual Dashboards** - Separate interfaces for admins and community users
+- **AI-Powered Predictions** - XGBoost model with % accuracy
+- **Real-Time Monitoring** - Live regional risk assessment
+- **Interactive Maps** - Geographic risk visualization
+- **Trend Analysis** - -day rolling window with trend indicators
+- **Smart Alerts** - Automated alerts for high-risk regions
+- **Dual Dashboards** - Separate interfaces for admins and community users
 
 ---
 
-## ✨ Features
+## Features
 
 ### For Health Authorities (Admin Dashboard)
 
@@ -49,7 +49,7 @@ This system provides early detection and monitoring of water-borne diseases (Cho
 - **Alert Management** - Create, dismiss, and resolve health alerts
 - **Weekly Reports** - Comprehensive summaries with disease distribution
 - **Disease Analytics** - Charts showing disease patterns and trends
-- **Live Data Sync** - Real-time updates every 10 seconds
+- **Live Data Sync** - Real-time updates every 0 seconds
 
 ### For Community Users
 
@@ -61,18 +61,18 @@ This system provides early detection and monitoring of water-borne diseases (Cho
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
-- **Framework:** FastAPI (Python 3.8+)
+- **Framework:** FastAPI (Python .+)
 - **Database:** SQLite with SQLAlchemy ORM
 - **ML/AI:** XGBoost, scikit-learn, NumPy, Pandas
 - **Authentication:** JWT tokens with bcrypt
 - **API:** RESTful with automatic OpenAPI documentation
 
 ### Frontend
-- **Framework:** React 18.2 with TypeScript
-- **Routing:** React Router v6
+- **Framework:** React . with TypeScript
+- **Routing:** React Router v
 - **Maps:** Leaflet with React-Leaflet
 - **Charts:** Recharts
 - **Styling:** Tailwind CSS
@@ -81,67 +81,61 @@ This system provides early detection and monitoring of water-borne diseases (Cho
 
 ### ML Pipeline
 - **Algorithm:** XGBoost Classifier
-- **Features:** 45+ parameters (water quality, demographics, symptoms)
-- **Classes:** 5 diseases (Cholera, Typhoid, Hepatitis A, Dysentery, No Disease)
-- **Accuracy:** ~95%
+- **Features:** + parameters (water quality, demographics, symptoms)
+- **Classes:** diseases (Cholera, Typhoid, Hepatitis A, Dysentery, No Disease)
+- **Accuracy:** ~%
 - **Bayesian Analysis:** Conditional probability calculations
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                     Frontend (React)                         │
-│  ┌──────────────────┐         ┌──────────────────┐         │
-│  │ Admin Dashboard  │         │ Community Portal │         │
-│  │  - Risk Maps     │         │  - Report Form   │         │
-│  │  - Analytics     │         │  - Predictions   │         │
-│  │  - Alerts        │         │  - Alerts        │         │
-│  └──────────────────┘         └──────────────────┘         │
-└─────────────────────────────────────────────────────────────┘
-                            │
-                    REST API (FastAPI)
-                            │
-┌─────────────────────────────────────────────────────────────┐
-│                     Backend Services                         │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐     │
-│  │  ML Engine   │  │  Bayesian    │  │  Alert       │     │
-│  │  - XGBoost   │  │  Analyzer    │  │  System      │     │
-│  │  - Predict   │  │  - Risk      │  │  - Monitor   │     │
-│  │  - Preprocess│  │  - Drivers   │  │  - Notify    │     │
-│  └──────────────┘  └──────────────┘  └──────────────┘     │
-└─────────────────────────────────────────────────────────────┘
-                            │
-                    ┌───────────────┐
-                    │   Database    │
-                    │   (SQLite)    │
-                    │  - Users      │
-                    │  - Reports    │
-                    │  - Predictions│
-                    │  - Alerts     │
-                    └───────────────┘
+
+ Frontend (React)
+
+ Admin Dashboard Community Portal
+ - Risk Maps - Report Form
+ - Analytics - Predictions
+ - Alerts - Alerts
+
+ REST API (FastAPI)
+
+ Backend Services
+
+ ML Engine Bayesian Alert
+ - XGBoost Analyzer System
+ - Predict - Risk - Monitor
+ - Preprocess - Drivers - Notify
+
+ Database
+ (SQLite)
+ - Users
+ - Reports
+ - Predictions
+ - Alerts
+
 ```
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 
-- Python 3.8 or higher
-- Node.js 16 or higher
+- Python . or higher
+- Node.js or higher
 - npm or yarn
 - Git
 
-### Step 1: Clone Repository
+### Step : Clone Repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/water-disease-prediction.git
 cd water-disease-prediction
 ```
 
-### Step 2: Backend Setup
+### Step : Backend Setup
 
 ```bash
 # Install Python dependencies
@@ -157,9 +151,9 @@ python create_demo_users.py
 python start_server.py
 ```
 
-Backend will run on: `http://localhost:8000`
+Backend will run on: `http://localhost:000`
 
-### Step 3: Frontend Setup
+### Step : Frontend Setup
 
 ```bash
 # Navigate to frontend (in new terminal)
@@ -172,54 +166,54 @@ npm install
 npm run dev
 ```
 
-Frontend will run on: `http://localhost:5173`
+Frontend will run on: `http://localhost:`
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Access the Application
 
-1. **Admin Dashboard:** `http://localhost:5173/admin-dashboard`
-   - Email: `admin@example.com`
-   - Password: `admin123`
+. **Admin Dashboard:** `http://localhost:/admin-dashboard`
+ - Email: `admin@example.com`
+ - Password: `admin`
 
-2. **Community Dashboard:** `http://localhost:5173/community-dashboard`
-   - Email: `community@example.com`
-   - Password: `community123`
+. **Community Dashboard:** `http://localhost:/community-dashboard`
+ - Email: `community@example.com`
+ - Password: `community`
 
 ### Submit a Health Report
 
-1. Login to Community Dashboard
-2. Fill in the report form:
-   - Location (Region, District)
-   - Personal Info (Age, Gender)
-   - Water Quality (pH, Turbidity, Fecal Coliform, etc.)
-   - Symptoms (Diarrhea, Vomiting, Fever, etc.)
-   - Environmental Factors (Temperature, Rainfall, Flooding)
-3. Submit and get instant AI prediction
+. Login to Community Dashboard
+. Fill in the report form:
+ - Location (Region, District)
+ - Personal Info (Age, Gender)
+ - Water Quality (pH, Turbidity, Fecal Coliform, etc.)
+ - Symptoms (Diarrhea, Vomiting, Fever, etc.)
+ - Environmental Factors (Temperature, Rainfall, Flooding)
+. Submit and get instant AI prediction
 
 ### View Regional Risk
 
-1. Login to Admin Dashboard
-2. View interactive risk heatmap
-3. Click on region markers for details
-4. Click "View AI Risk Analysis" for Bayesian analysis
+. Login to Admin Dashboard
+. View interactive risk heatmap
+. Click on region markers for details
+. Click "View AI Risk Analysis" for Bayesian analysis
 
 ### Manage Alerts
 
-1. Admin Dashboard → Alerts section
-2. Create new alerts for high-risk regions
-3. Dismiss false positives
-4. Resolve addressed alerts
+. Admin Dashboard → Alerts section
+. Create new alerts for high-risk regions
+. Dismiss false positives
+. Resolve addressed alerts
 
 ---
 
-## 📚 API Documentation
+## API Documentation
 
 ### Base URL
 ```
-http://localhost:8000
+http://localhost:000
 ```
 
 ### Authentication
@@ -228,8 +222,8 @@ POST /login
 Content-Type: application/json
 
 {
-  "email": "admin@example.com",
-  "password": "admin123"
+ "email": "admin@example.com",
+ "password": "admin"
 }
 ```
 
@@ -249,92 +243,92 @@ Content-Type: application/json
 
 ### Interactive API Docs
 
-Visit `http://localhost:8000/docs` for Swagger UI documentation.
+Visit `http://localhost:000/docs` for Swagger UI documentation.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 water-disease-prediction/
-├── backend/
-│   ├── main.py                 # FastAPI application
-│   ├── models.py               # Database models
-│   ├── schemas.py              # Pydantic schemas
-│   ├── auth.py                 # Authentication
-│   ├── database.py             # Database connection
-│   ├── ml_engine.py            # ML prediction engine
-│   ├── calculate_bayesian_probs.py  # Bayesian analysis
-│   ├── models/                 # Trained ML models
-│   │   ├── best_model.pkl
-│   │   ├── scaler.pkl
-│   │   ├── label_encoder.pkl
-│   │   └── bayesian_probs.json
-│   ├── utils/
-│   │   ├── csv_sync.py         # CSV synchronization
-│   │   └── column_mapping.py   # Column name mapping
-│   └── tests/                  # Test files
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/         # React components
-│   │   │   ├── BayesianDriversModal.tsx
-│   │   │   ├── WeeklyReports.tsx
-│   │   │   └── ...
-│   │   ├── pages/              # Page components
-│   │   │   ├── AdminDashboard.tsx
-│   │   │   ├── CommunityDashboard.tsx
-│   │   │   └── Login.tsx
-│   │   ├── context/            # React context
-│   │   │   └── AuthContext.tsx
-│   │   ├── services/           # API services
-│   │   │   └── api.ts
-│   │   └── App.tsx             # Main app component
-│   ├── public/                 # Static assets
-│   └── package.json            # Dependencies
-│
-├── Data/
-│   └── water_disease_data.csv  # Training dataset
-│
-├── docs/                       # Documentation
-├── README.md                   # This file
-├── SYSTEM_ARCHITECTURE.md      # Architecture details
-├── requirements.txt            # Python dependencies
-├── .gitignore                  # Git ignore rules
-└── train_model.py              # ML model training script
+ backend/
+ main.py # FastAPI application
+ models.py # Database models
+ schemas.py # Pydantic schemas
+ auth.py # Authentication
+ database.py # Database connection
+ ml_engine.py # ML prediction engine
+ calculate_bayesian_probs.py # Bayesian analysis
+ models/ # Trained ML models
+ best_model.pkl
+ scaler.pkl
+ label_encoder.pkl
+ bayesian_probs.json
+ utils/
+ csv_sync.py # CSV synchronization
+ column_mapping.py # Column name mapping
+ tests/ # Test files
+
+ frontend/
+ src/
+ components/ # React components
+ BayesianDriversModal.tsx
+ WeeklyReports.tsx
+ ...
+ pages/ # Page components
+ AdminDashboard.tsx
+ CommunityDashboard.tsx
+ Login.tsx
+ context/ # React context
+ AuthContext.tsx
+ services/ # API services
+ api.ts
+ App.tsx # Main app component
+ public/ # Static assets
+ package.json # Dependencies
+
+ Data/
+ water_disease_data.csv # Training dataset
+
+ docs/ # Documentation
+ README.md # This file
+ SYSTEM_ARCHITECTURE.md # Architecture details
+ requirements.txt # Python dependencies
+ .gitignore # Git ignore rules
+ train_model.py # ML model training script
 ```
 
 ---
 
-## 🤖 ML Model
+## ML Model
 
 ### Training Data
 
-- **Dataset Size:** 10,000+ samples
-- **Features:** 45 parameters
-  - Water Quality: pH, turbidity, fecal coliform, TDS, nitrate, arsenic, etc.
-  - Demographics: Age, gender, population density
-  - Sanitation: Toilet access, handwashing, sewage treatment
-  - Environmental: Temperature, rainfall, humidity, flooding
-  - Symptoms: Diarrhea, vomiting, fever, abdominal pain, etc.
+- **Dataset Size:** 0,000+ samples
+- **Features:** parameters
+ - Water Quality: pH, turbidity, fecal coliform, TDS, nitrate, arsenic, etc.
+ - Demographics: Age, gender, population density
+ - Sanitation: Toilet access, handwashing, sewage treatment
+ - Environmental: Temperature, rainfall, humidity, flooding
+ - Symptoms: Diarrhea, vomiting, fever, abdominal pain, etc.
 
 ### Model Performance
 
 | Metric | Score |
 |--------|-------|
-| Accuracy | 95.2% |
-| Precision | 93.4% |
-| Recall | 94.1% |
-| F1-Score | 93.7% |
+| Accuracy | .% |
+| Precision | .% |
+| Recall | .% |
+| F-Score | .% |
 
 ### Risk Index Calculation
 
 ```
-Risk Index = (0.4 × Base_Risk) + (0.2 × Coliform) + (0.2 × Rainfall) + (0.2 × Flooding)
+Risk Index = (0. × Base_Risk) + (0. × Coliform) + (0. × Rainfall) + (0. × Flooding)
 ```
 
 Where:
-- **Base_Risk:** Average ML predictions (last 7 days)
+- **Base_Risk:** Average ML predictions (last days)
 - **Coliform:** Normalized fecal coliform level
 - **Rainfall:** Normalized rainfall amount
 - **Flooding:** Binary flooding indicator
@@ -343,13 +337,13 @@ Where:
 
 | Risk Index | Level | Color | Action |
 |------------|-------|-------|--------|
-| ≥60% | High | 🔴 Red | Immediate intervention |
-| 30-59% | Medium | 🟡 Yellow | Enhanced monitoring |
-| <30% | Low | 🟢 Green | Routine surveillance |
+| ≥0% | High | Red | Immediate intervention |
+| 0-% | Medium | Yellow | Enhanced monitoring |
+| <0% | Low | Green | Routine surveillance |
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Backend Tests
 
@@ -363,20 +357,20 @@ python test_ml_engine.py
 
 ```bash
 cd backend
-python seed_high_risk_reports.py  # Create high-risk test data
-python seed_extreme_risk.py        # Create extreme scenarios
+python seed_high_risk_reports.py # Create high-risk test data
+python seed_extreme_risk.py # Create extreme scenarios
 ```
 
 ### Verify Setup
 
 ```bash
-python verify_users.py             # Check user accounts
-python verify_frontend_data.py     # Verify API responses
+python verify_users.py # Check user accounts
+python verify_frontend_data.py # Verify API responses
 ```
 
 ---
 
-## 🔒 Security
+## Security
 
 - **Authentication:** JWT tokens with secure password hashing (bcrypt)
 - **Authorization:** Role-based access control (Admin/Community)
@@ -387,7 +381,7 @@ python verify_frontend_data.py     # Verify API responses
 
 ---
 
-## 🌍 Deployment
+## Deployment
 
 ### Production Checklist
 
@@ -409,31 +403,31 @@ python verify_frontend_data.py     # Verify API responses
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+. Fork the repository
+. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+. Push to the branch (`git push origin feature/AmazingFeature`)
+. Open a Pull Request
 
 ---
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👥 Authors
+## Authors
 
 - **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - XGBoost team for the excellent ML library
 - FastAPI for the modern Python web framework
@@ -443,13 +437,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Support
+## Support
 
 For support, email your.email@example.com or open an issue on GitHub.
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [ ] Mobile app (React Native)
 - [ ] Weather API integration for real-time rainfall data
@@ -462,15 +456,15 @@ For support, email your.email@example.com or open an issue on GitHub.
 
 ---
 
-## 📊 Statistics
+## Statistics
 
-- **Lines of Code:** ~15,000+
-- **API Endpoints:** 20+
-- **React Components:** 15+
-- **ML Features:** 45+
-- **Supported Diseases:** 5
+- **Lines of Code:** ~,000+
+- **API Endpoints:** 0+
+- **React Components:** +
+- **ML Features:** +
+- **Supported Diseases:**
 - **Regions Covered:** Tamil Nadu, India
 
 ---
 
-**Made with ❤️ for public health**
+**Made with care for public health**

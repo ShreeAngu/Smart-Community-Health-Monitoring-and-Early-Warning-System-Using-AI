@@ -7,8 +7,8 @@ SQLALCHEMY_DATABASE_URL = "sqlite:///./health_db.db"
 
 # Create engine
 engine = create_engine(
-    SQLALCHEMY_DATABASE_URL, 
-    connect_args={"check_same_thread": False}
+ SQLALCHEMY_DATABASE_URL,
+ connect_args={"check_same_thread": False}
 )
 
 # Create SessionLocal class
@@ -19,8 +19,8 @@ Base = declarative_base()
 
 # Dependency to get database session
 def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
+ db = SessionLocal()
+ try:
+ yield db
+ finally:
+ db.close()
