@@ -1,41 +1,41 @@
 {
- "name": "frontend",
- "private": true,
- "version": "0.0.0",
- "type": "module",
- "scripts": {
- "dev": "vite",
- "build": "tsc -b && vite build",
- "lint": "eslint .",
- "preview": "vite preview",
- "vercel-build": "npm run build"
- },
- "dependencies": {
- "@types/leaflet": "^..",
- "axios": "^..",
- "leaflet": "^..",
- "lucide-react": "^0..0",
- "react": "^..0",
- "react-dom": "^..0",
- "react-leaflet": "^.0.0",
- "react-router-dom": "^..0",
- "recharts": "^..0"
- },
- "devDependencies": {
- "@eslint/js": "^..",
- "@types/node": "^.0.",
- "@types/react": "^..",
- "@types/react-dom": "^..",
- "@vitejs/plugin-react-swc": "^..",
- "autoprefixer": "^0..",
- "eslint": "^..",
- "eslint-plugin-react-hooks": "^.0.",
- "eslint-plugin-react-refresh": "^0..",
- "globals": "^..0",
- "postcss": "^..",
- "tailwindcss": "^..",
- "typescript": "~..",
- "typescript-eslint": "^..0",
- "vite": "^.."
- }
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "vercel-build": "npm run build"
+  },
+  "dependencies": {
+    "@types/leaflet": "^1.9.8",
+    "axios": "^1.6.0",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.344.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.22.0",
+    "recharts": "^2.12.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "globals": "^14.0.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "~5.3.0",
+    "typescript-eslint": "^7.0.0",
+    "vite": "^5.1.0"
+  }
 }
