@@ -101,15 +101,10 @@ feature_importance_data = None
 # Alert system thresholds
 
 ALERT_THRESHOLDS = {
-
- "AI_RISK_SCORE": , # % average risk score
-
- "VOLUME_CASES": , # cases in rolling window
-
- "VOLUME_DAYS": , # -day rolling window
-
- "COOLDOWN_HOURS": # -hour cooldown between alerts
-
+    "AI_RISK_SCORE": 65,      # 65% average risk score
+    "VOLUME_CASES": 9,         # 9 cases in rolling window
+    "VOLUME_DAYS": 7,          # 7-day rolling window
+    "COOLDOWN_HOURS": 24       # 24-hour cooldown between alerts
 }
 
 

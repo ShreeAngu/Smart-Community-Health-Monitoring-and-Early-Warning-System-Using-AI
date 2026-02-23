@@ -15,16 +15,20 @@ original_cwd = os.getcwd()
 os.chdir(backend_dir)
 
 try:
- # Import the FastAPI app from backend
- from main import app
+    # Import the FastAPI app from backend (use simple version for now)
+    from main_simple import app
 except ImportError as e:
- print(f"Import error: {e}")
- # Fallback import
- import main
- app = main.app
+    print(f"Import error: {e}")
+    # Fallback to create a minimal app
+    from fastapi import FastAPI
+    app = FastAPI(title="Water Disease Prediction API", version="1.0.0")
+    
+    @app.get("/")
+    async def root():
+        return {"message": "API is running", "status": "ok"}
 finally:
- # Restore original working directory
- os.chdir(original_cwd)
+    # Restore original working directory
+    os.chdir(original_cwd)
 
 # Export the app for Vercel
 __all__ = ["app"]
